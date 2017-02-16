@@ -1,0 +1,725 @@
+[23-Apr-2015 15:05:23 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'parse error: unclosed block' in /home/flexvisi/public_html/formflex/inc/lessc.inc.php:2277
+Stack trace:
+#0 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(121): lessc_parser->parse('@t: #333333;??@...')
+#1 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(753): lessc->tryImport(Array, Object(stdClass), Object(stdClass))
+#2 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(284): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#3 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(278): lessc->compileProps(Object(stdClass), Object(stdClass))
+#4 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(193): lessc->compileRoot(Object(stdClass))
+#5 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1807): lessc->compileBlock(Object(stdClass))
+#6 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1830): lessc->compile('@import "form";...', './assets/less/s...')
+#7 /home/flexvisi/public_html/formflex/index.php(12): lessc->compileFile('./as in /home/flexvisi/public_html/formflex/inc/lessc.inc.php on line 2277
+[23-Apr-2015 15:12:58 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'parse error: unclosed block' in /home/flexvisi/public_html/formflex/inc/lessc.inc.php:2277
+Stack trace:
+#0 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(121): lessc_parser->parse('@t: #333333;??@...')
+#1 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(753): lessc->tryImport(Array, Object(stdClass), Object(stdClass))
+#2 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(284): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#3 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(278): lessc->compileProps(Object(stdClass), Object(stdClass))
+#4 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(193): lessc->compileRoot(Object(stdClass))
+#5 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1807): lessc->compileBlock(Object(stdClass))
+#6 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1830): lessc->compile('@import "form";...', './assets/less/s...')
+#7 /home/flexvisi/public_html/formflex/index.php(12): lessc->compileFile('./as in /home/flexvisi/public_html/formflex/inc/lessc.inc.php on line 2277
+[06-May-2015 08:18:34 UTC] PHP Fatal error:  Cannot redeclare generateRandomString() (previously declared in /home/flexvisi/public_html/formflex/index.php:463) in /home/flexvisi/public_html/formflex/index.php on line 463
+[06-May-2015 08:18:37 UTC] PHP Fatal error:  Cannot redeclare generateRandomString() (previously declared in /home/flexvisi/public_html/formflex/index.php:463) in /home/flexvisi/public_html/formflex/index.php on line 463
+[06-May-2015 11:56:40 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'parse error: unclosed block' in /home/flexvisi/public_html/formflex/inc/lessc.inc.php:2277
+Stack trace:
+#0 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(121): lessc_parser->parse('@t: #333333;??@...')
+#1 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(753): lessc->tryImport(Array, Object(stdClass), Object(stdClass))
+#2 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(284): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#3 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(278): lessc->compileProps(Object(stdClass), Object(stdClass))
+#4 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(193): lessc->compileRoot(Object(stdClass))
+#5 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1807): lessc->compileBlock(Object(stdClass))
+#6 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1830): lessc->compile('@import "form";...', './assets/less/s...')
+#7 /home/flexvisi/public_html/formflex/index.php(12): lessc->compileFile('./as in /home/flexvisi/public_html/formflex/inc/lessc.inc.php on line 2277
+[20-May-2015 09:00:11 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message '.tr is undefined: ./assets/less/style_less.less on line 3' in /home/flexvisi/public_html/formflex/inc/lessc.inc.php:3555
+Stack trace:
+#0 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(2097): lessc_parser->throwError('.tr is undefine...', 5159)
+#1 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(720): lessc->throwError('.tr is undefine...')
+#2 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(283): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#3 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(221): lessc->compileProps(Object(stdClass), Object(stdClass))
+#4 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(195): lessc->compileCSSBlock(Object(stdClass))
+#5 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(691): lessc->compileBlock(Object(stdClass))
+#6 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(283): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#7 /home/flexvisi/public_html/formflex/inc/lessc.in in /home/flexvisi/public_html/formflex/inc/lessc.inc.php on line 3555
+[20-May-2015 09:00:13 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message '.tr is undefined: ./assets/less/style_less.less on line 3' in /home/flexvisi/public_html/formflex/inc/lessc.inc.php:3555
+Stack trace:
+#0 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(2097): lessc_parser->throwError('.tr is undefine...', 5159)
+#1 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(720): lessc->throwError('.tr is undefine...')
+#2 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(283): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#3 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(221): lessc->compileProps(Object(stdClass), Object(stdClass))
+#4 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(195): lessc->compileCSSBlock(Object(stdClass))
+#5 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(691): lessc->compileBlock(Object(stdClass))
+#6 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(283): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#7 /home/flexvisi/public_html/formflex/inc/lessc.in in /home/flexvisi/public_html/formflex/inc/lessc.inc.php on line 3555
+[20-May-2015 09:00:46 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'variable @bdc is undefined: ./assets/less/style_less.less on line 3' in /home/flexvisi/public_html/formflex/inc/lessc.inc.php:3555
+Stack trace:
+#0 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(2097): lessc_parser->throwError('variable @bdc i...', 1774)
+#1 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1852): lessc->throwError('variable @bdc i...')
+#2 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1475): lessc->get('@bdc')
+#3 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1480): lessc->reduce(Array, false)
+#4 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(686): lessc->reduce(Array)
+#5 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(283): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#6 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(221): lessc->compileProps(Object(stdClass), Object(stdClass))
+#7 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(195): lessc->compileCSSBlock(Object(stdClass))
+#8 /hom in /home/flexvisi/public_html/formflex/inc/lessc.inc.php on line 3555
+[20-May-2015 09:00:50 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'variable @bdc is undefined: ./assets/less/style_less.less on line 3' in /home/flexvisi/public_html/formflex/inc/lessc.inc.php:3555
+Stack trace:
+#0 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(2097): lessc_parser->throwError('variable @bdc i...', 1774)
+#1 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1852): lessc->throwError('variable @bdc i...')
+#2 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1475): lessc->get('@bdc')
+#3 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1480): lessc->reduce(Array, false)
+#4 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(686): lessc->reduce(Array)
+#5 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(283): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#6 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(221): lessc->compileProps(Object(stdClass), Object(stdClass))
+#7 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(195): lessc->compileCSSBlock(Object(stdClass))
+#8 /hom in /home/flexvisi/public_html/formflex/inc/lessc.inc.php on line 3555
+[20-May-2015 09:01:25 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'variable @bdc is undefined: ./assets/less/style_less.less on line 3' in /home/flexvisi/public_html/formflex/inc/lessc.inc.php:3555
+Stack trace:
+#0 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(2097): lessc_parser->throwError('variable @bdc i...', 1774)
+#1 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1852): lessc->throwError('variable @bdc i...')
+#2 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1475): lessc->get('@bdc')
+#3 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1480): lessc->reduce(Array, false)
+#4 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(686): lessc->reduce(Array)
+#5 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(283): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#6 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(221): lessc->compileProps(Object(stdClass), Object(stdClass))
+#7 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(195): lessc->compileCSSBlock(Object(stdClass))
+#8 /hom in /home/flexvisi/public_html/formflex/inc/lessc.inc.php on line 3555
+[20-May-2015 09:01:27 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'variable @bdc is undefined: ./assets/less/style_less.less on line 3' in /home/flexvisi/public_html/formflex/inc/lessc.inc.php:3555
+Stack trace:
+#0 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(2097): lessc_parser->throwError('variable @bdc i...', 1774)
+#1 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1852): lessc->throwError('variable @bdc i...')
+#2 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1475): lessc->get('@bdc')
+#3 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1480): lessc->reduce(Array, false)
+#4 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(686): lessc->reduce(Array)
+#5 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(283): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#6 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(221): lessc->compileProps(Object(stdClass), Object(stdClass))
+#7 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(195): lessc->compileCSSBlock(Object(stdClass))
+#8 /hom in /home/flexvisi/public_html/formflex/inc/lessc.inc.php on line 3555
+[20-May-2015 09:01:35 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'variable @bdc is undefined: ./assets/less/style_less.less on line 3' in /home/flexvisi/public_html/formflex/inc/lessc.inc.php:3555
+Stack trace:
+#0 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(2097): lessc_parser->throwError('variable @bdc i...', 1774)
+#1 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1852): lessc->throwError('variable @bdc i...')
+#2 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1475): lessc->get('@bdc')
+#3 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1480): lessc->reduce(Array, false)
+#4 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(686): lessc->reduce(Array)
+#5 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(283): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#6 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(221): lessc->compileProps(Object(stdClass), Object(stdClass))
+#7 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(195): lessc->compileCSSBlock(Object(stdClass))
+#8 /hom in /home/flexvisi/public_html/formflex/inc/lessc.inc.php on line 3555
+[20-May-2015 09:01:37 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'variable @w is undefined: ./assets/less/style_less.less on line 3' in /home/flexvisi/public_html/formflex/inc/lessc.inc.php:3555
+Stack trace:
+#0 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(2097): lessc_parser->throwError('variable @w is ...', 1948)
+#1 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1852): lessc->throwError('variable @w is ...')
+#2 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1475): lessc->get('@w')
+#3 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(686): lessc->reduce(Array)
+#4 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(283): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#5 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(221): lessc->compileProps(Object(stdClass), Object(stdClass))
+#6 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(195): lessc->compileCSSBlock(Object(stdClass))
+#7 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(691): lessc->compileBlock(Object(stdClass))
+#8 in /home/flexvisi/public_html/formflex/inc/lessc.inc.php on line 3555
+[20-May-2015 09:01:44 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'variable @bd is undefined: ./assets/less/style_less.less on line 3' in /home/flexvisi/public_html/formflex/inc/lessc.inc.php:3555
+Stack trace:
+#0 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(2097): lessc_parser->throwError('variable @bd is...', 2038)
+#1 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1852): lessc->throwError('variable @bd is...')
+#2 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1475): lessc->get('@bd')
+#3 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(686): lessc->reduce(Array)
+#4 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(283): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#5 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(221): lessc->compileProps(Object(stdClass), Object(stdClass))
+#6 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(195): lessc->compileCSSBlock(Object(stdClass))
+#7 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(691): lessc->compileBlock(Object(stdClass))
+ in /home/flexvisi/public_html/formflex/inc/lessc.inc.php on line 3555
+[20-May-2015 09:01:52 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'variable @bd is undefined: ./assets/less/style_less.less on line 3' in /home/flexvisi/public_html/formflex/inc/lessc.inc.php:3555
+Stack trace:
+#0 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(2097): lessc_parser->throwError('variable @bd is...', 2038)
+#1 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1852): lessc->throwError('variable @bd is...')
+#2 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1475): lessc->get('@bd')
+#3 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(686): lessc->reduce(Array)
+#4 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(283): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#5 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(221): lessc->compileProps(Object(stdClass), Object(stdClass))
+#6 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(195): lessc->compileCSSBlock(Object(stdClass))
+#7 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(691): lessc->compileBlock(Object(stdClass))
+ in /home/flexvisi/public_html/formflex/inc/lessc.inc.php on line 3555
+[20-May-2015 09:01:54 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'variable @gris is undefined: ./assets/less/style_less.less on line 3' in /home/flexvisi/public_html/formflex/inc/lessc.inc.php:3555
+Stack trace:
+#0 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(2097): lessc_parser->throwError('variable @gris ...', 2152)
+#1 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1852): lessc->throwError('variable @gris ...')
+#2 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1475): lessc->get('@gris')
+#3 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(686): lessc->reduce(Array)
+#4 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(283): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#5 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(221): lessc->compileProps(Object(stdClass), Object(stdClass))
+#6 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(195): lessc->compileCSSBlock(Object(stdClass))
+#7 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(691): lessc->compileBlock(Object(stdClas in /home/flexvisi/public_html/formflex/inc/lessc.inc.php on line 3555
+[20-May-2015 09:02:49 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'variable @gris_fonce is undefined: ./assets/less/style_less.less on line 3' in /home/flexvisi/public_html/formflex/inc/lessc.inc.php:3555
+Stack trace:
+#0 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(2097): lessc_parser->throwError('variable @gris_...', 2224)
+#1 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1852): lessc->throwError('variable @gris_...')
+#2 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1475): lessc->get('@gris_fonce')
+#3 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(686): lessc->reduce(Array)
+#4 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(283): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#5 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(221): lessc->compileProps(Object(stdClass), Object(stdClass))
+#6 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(195): lessc->compileCSSBlock(Object(stdClass))
+#7 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(691): lessc->compileBlock(Ob in /home/flexvisi/public_html/formflex/inc/lessc.inc.php on line 3555
+[20-May-2015 09:02:50 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'variable @gris_fonce is undefined: ./assets/less/style_less.less on line 3' in /home/flexvisi/public_html/formflex/inc/lessc.inc.php:3555
+Stack trace:
+#0 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(2097): lessc_parser->throwError('variable @gris_...', 2224)
+#1 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1852): lessc->throwError('variable @gris_...')
+#2 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1475): lessc->get('@gris_fonce')
+#3 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(686): lessc->reduce(Array)
+#4 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(283): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#5 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(221): lessc->compileProps(Object(stdClass), Object(stdClass))
+#6 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(195): lessc->compileCSSBlock(Object(stdClass))
+#7 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(691): lessc->compileBlock(Ob in /home/flexvisi/public_html/formflex/inc/lessc.inc.php on line 3555
+[20-May-2015 09:03:04 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'variable @t is undefined: ./assets/less/style_less.less on line 3' in /home/flexvisi/public_html/formflex/inc/lessc.inc.php:3555
+Stack trace:
+#0 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(2097): lessc_parser->throwError('variable @t is ...', 2585)
+#1 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1852): lessc->throwError('variable @t is ...')
+#2 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1475): lessc->get('@t')
+#3 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(686): lessc->reduce(Array)
+#4 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(283): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#5 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(221): lessc->compileProps(Object(stdClass), Object(stdClass))
+#6 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(195): lessc->compileCSSBlock(Object(stdClass))
+#7 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(691): lessc->compileBlock(Object(stdClass))
+#8 in /home/flexvisi/public_html/formflex/inc/lessc.inc.php on line 3555
+[20-May-2015 09:03:06 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'variable @t is undefined: ./assets/less/style_less.less on line 3' in /home/flexvisi/public_html/formflex/inc/lessc.inc.php:3555
+Stack trace:
+#0 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(2097): lessc_parser->throwError('variable @t is ...', 2585)
+#1 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1852): lessc->throwError('variable @t is ...')
+#2 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1475): lessc->get('@t')
+#3 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(686): lessc->reduce(Array)
+#4 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(283): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#5 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(221): lessc->compileProps(Object(stdClass), Object(stdClass))
+#6 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(195): lessc->compileCSSBlock(Object(stdClass))
+#7 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(691): lessc->compileBlock(Object(stdClass))
+#8 in /home/flexvisi/public_html/formflex/inc/lessc.inc.php on line 3555
+[20-May-2015 09:03:25 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'variable @bdc is undefined: ./assets/less/style_less.less on line 3' in /home/flexvisi/public_html/formflex/inc/lessc.inc.php:3555
+Stack trace:
+#0 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(2097): lessc_parser->throwError('variable @bdc i...', 1774)
+#1 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1852): lessc->throwError('variable @bdc i...')
+#2 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1475): lessc->get('@bdc')
+#3 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1480): lessc->reduce(Array, false)
+#4 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(686): lessc->reduce(Array)
+#5 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(283): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#6 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(221): lessc->compileProps(Object(stdClass), Object(stdClass))
+#7 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(195): lessc->compileCSSBlock(Object(stdClass))
+#8 /hom in /home/flexvisi/public_html/formflex/inc/lessc.inc.php on line 3555
+[20-May-2015 09:03:27 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'variable @c21 is undefined: ./assets/less/style_less.less on line 3' in /home/flexvisi/public_html/formflex/inc/lessc.inc.php:3555
+Stack trace:
+#0 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(2097): lessc_parser->throwError('variable @c21 i...', 3226)
+#1 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1852): lessc->throwError('variable @c21 i...')
+#2 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1475): lessc->get('@c21')
+#3 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(686): lessc->reduce(Array)
+#4 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(283): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#5 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(221): lessc->compileProps(Object(stdClass), Object(stdClass))
+#6 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(195): lessc->compileCSSBlock(Object(stdClass))
+#7 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(691): lessc->compileBlock(Object(stdClass) in /home/flexvisi/public_html/formflex/inc/lessc.inc.php on line 3555
+[20-May-2015 09:03:58 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'variable @b is undefined: ./assets/less/style_less.less on line 3' in /home/flexvisi/public_html/formflex/inc/lessc.inc.php:3555
+Stack trace:
+#0 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(2097): lessc_parser->throwError('variable @b is ...', 3657)
+#1 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1852): lessc->throwError('variable @b is ...')
+#2 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1475): lessc->get('@b')
+#3 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(686): lessc->reduce(Array)
+#4 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(283): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#5 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(221): lessc->compileProps(Object(stdClass), Object(stdClass))
+#6 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(195): lessc->compileCSSBlock(Object(stdClass))
+#7 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(691): lessc->compileBlock(Object(stdClass))
+#8 in /home/flexvisi/public_html/formflex/inc/lessc.inc.php on line 3555
+[20-May-2015 09:03:59 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'variable @b is undefined: ./assets/less/style_less.less on line 3' in /home/flexvisi/public_html/formflex/inc/lessc.inc.php:3555
+Stack trace:
+#0 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(2097): lessc_parser->throwError('variable @b is ...', 3657)
+#1 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1852): lessc->throwError('variable @b is ...')
+#2 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1475): lessc->get('@b')
+#3 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(686): lessc->reduce(Array)
+#4 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(283): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#5 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(221): lessc->compileProps(Object(stdClass), Object(stdClass))
+#6 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(195): lessc->compileCSSBlock(Object(stdClass))
+#7 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(691): lessc->compileBlock(Object(stdClass))
+#8 in /home/flexvisi/public_html/formflex/inc/lessc.inc.php on line 3555
+[20-May-2015 09:04:28 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'variable @bdc is undefined: ./assets/less/style_less.less on line 3' in /home/flexvisi/public_html/formflex/inc/lessc.inc.php:3555
+Stack trace:
+#0 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(2097): lessc_parser->throwError('variable @bdc i...', 1774)
+#1 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1852): lessc->throwError('variable @bdc i...')
+#2 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1475): lessc->get('@bdc')
+#3 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1480): lessc->reduce(Array, false)
+#4 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(686): lessc->reduce(Array)
+#5 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(283): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#6 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(221): lessc->compileProps(Object(stdClass), Object(stdClass))
+#7 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(195): lessc->compileCSSBlock(Object(stdClass))
+#8 /hom in /home/flexvisi/public_html/formflex/inc/lessc.inc.php on line 3555
+[20-May-2015 09:04:31 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'variable @gris_clair is undefined: ./assets/less/style_less.less on line 3' in /home/flexvisi/public_html/formflex/inc/lessc.inc.php:3555
+Stack trace:
+#0 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(2097): lessc_parser->throwError('variable @gris_...', 4951)
+#1 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1852): lessc->throwError('variable @gris_...')
+#2 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1475): lessc->get('@gris_clair')
+#3 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(686): lessc->reduce(Array)
+#4 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(283): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#5 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(221): lessc->compileProps(Object(stdClass), Object(stdClass))
+#6 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(195): lessc->compileCSSBlock(Object(stdClass))
+#7 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(691): lessc->compileBlock(Ob in /home/flexvisi/public_html/formflex/inc/lessc.inc.php on line 3555
+[20-May-2015 09:04:33 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'variable @gris_clair is undefined: ./assets/less/style_less.less on line 3' in /home/flexvisi/public_html/formflex/inc/lessc.inc.php:3555
+Stack trace:
+#0 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(2097): lessc_parser->throwError('variable @gris_...', 4951)
+#1 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1852): lessc->throwError('variable @gris_...')
+#2 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1475): lessc->get('@gris_clair')
+#3 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(686): lessc->reduce(Array)
+#4 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(283): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#5 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(221): lessc->compileProps(Object(stdClass), Object(stdClass))
+#6 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(195): lessc->compileCSSBlock(Object(stdClass))
+#7 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(691): lessc->compileBlock(Ob in /home/flexvisi/public_html/formflex/inc/lessc.inc.php on line 3555
+[20-May-2015 09:04:48 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'variable @bdc is undefined: ./assets/less/style_less.less on line 3' in /home/flexvisi/public_html/formflex/inc/lessc.inc.php:3555
+Stack trace:
+#0 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(2097): lessc_parser->throwError('variable @bdc i...', 1774)
+#1 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1852): lessc->throwError('variable @bdc i...')
+#2 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1475): lessc->get('@bdc')
+#3 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1480): lessc->reduce(Array, false)
+#4 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(686): lessc->reduce(Array)
+#5 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(283): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#6 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(221): lessc->compileProps(Object(stdClass), Object(stdClass))
+#7 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(195): lessc->compileCSSBlock(Object(stdClass))
+#8 /hom in /home/flexvisi/public_html/formflex/inc/lessc.inc.php on line 3555
+[20-May-2015 09:04:49 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'variable @tm is undefined: ./assets/less/style_less.less on line 3' in /home/flexvisi/public_html/formflex/inc/lessc.inc.php:3555
+Stack trace:
+#0 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(2097): lessc_parser->throwError('variable @tm is...', 5142)
+#1 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1852): lessc->throwError('variable @tm is...')
+#2 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1475): lessc->get('@tm')
+#3 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(686): lessc->reduce(Array)
+#4 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(283): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#5 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(221): lessc->compileProps(Object(stdClass), Object(stdClass))
+#6 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(195): lessc->compileCSSBlock(Object(stdClass))
+#7 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(691): lessc->compileBlock(Object(stdClass))
+ in /home/flexvisi/public_html/formflex/inc/lessc.inc.php on line 3555
+[20-May-2015 09:04:59 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'variable @tm is undefined: ./assets/less/style_less.less on line 3' in /home/flexvisi/public_html/formflex/inc/lessc.inc.php:3555
+Stack trace:
+#0 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(2097): lessc_parser->throwError('variable @tm is...', 5142)
+#1 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1852): lessc->throwError('variable @tm is...')
+#2 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1475): lessc->get('@tm')
+#3 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(686): lessc->reduce(Array)
+#4 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(283): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#5 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(221): lessc->compileProps(Object(stdClass), Object(stdClass))
+#6 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(195): lessc->compileCSSBlock(Object(stdClass))
+#7 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(691): lessc->compileBlock(Object(stdClass))
+ in /home/flexvisi/public_html/formflex/inc/lessc.inc.php on line 3555
+[20-May-2015 13:43:07 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message '.round is undefined: ./assets/less/style_less.less on line 3' in /home/flexvisi/public_html/formflex/inc/lessc.inc.php:3555
+Stack trace:
+#0 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(2097): lessc_parser->throwError('.round is undef...', 1425)
+#1 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(720): lessc->throwError('.round is undef...')
+#2 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(283): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#3 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(221): lessc->compileProps(Object(stdClass), Object(stdClass))
+#4 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(195): lessc->compileCSSBlock(Object(stdClass))
+#5 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(691): lessc->compileBlock(Object(stdClass))
+#6 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(283): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#7 /home/flexvisi/public_html/formflex/inc/lessc in /home/flexvisi/public_html/formflex/inc/lessc.inc.php on line 3555
+[20-May-2015 13:43:32 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'variable @gris_fonce is undefined: ./assets/less/style_less.less on line 3' in /home/flexvisi/public_html/formflex/inc/lessc.inc.php:3555
+Stack trace:
+#0 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(2097): lessc_parser->throwError('variable @gris_...', 2475)
+#1 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1852): lessc->throwError('variable @gris_...')
+#2 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1475): lessc->get('@gris_fonce')
+#3 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(686): lessc->reduce(Array)
+#4 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(283): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#5 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(221): lessc->compileProps(Object(stdClass), Object(stdClass))
+#6 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(195): lessc->compileCSSBlock(Object(stdClass))
+#7 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(691): lessc->compileBlock(Ob in /home/flexvisi/public_html/formflex/inc/lessc.inc.php on line 3555
+[20-May-2015 13:43:33 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'variable @gris_fonce is undefined: ./assets/less/style_less.less on line 3' in /home/flexvisi/public_html/formflex/inc/lessc.inc.php:3555
+Stack trace:
+#0 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(2097): lessc_parser->throwError('variable @gris_...', 2475)
+#1 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1852): lessc->throwError('variable @gris_...')
+#2 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1475): lessc->get('@gris_fonce')
+#3 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(686): lessc->reduce(Array)
+#4 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(283): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#5 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(221): lessc->compileProps(Object(stdClass), Object(stdClass))
+#6 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(195): lessc->compileCSSBlock(Object(stdClass))
+#7 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(691): lessc->compileBlock(Ob in /home/flexvisi/public_html/formflex/inc/lessc.inc.php on line 3555
+[26-May-2015 11:24:10 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'parse error: failed at `{` ./assets/less/form.less on line 405' in /home/flexvisi/public_html/formflex/inc/lessc.inc.php:3553
+Stack trace:
+#0 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(2364): lessc_parser->throwError()
+#1 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(120): lessc_parser->parse('.customErrorVal...')
+#2 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(785): lessc->tryImport(Array, Object(stdClass), Object(stdClass))
+#3 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(283): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#4 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(277): lessc->compileProps(Object(stdClass), Object(stdClass))
+#5 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(192): lessc->compileRoot(Object(stdClass))
+#6 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1899): lessc->compileBlock(Object(stdClass))
+#7 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1922): lessc->com in /home/flexvisi/public_html/formflex/inc/lessc.inc.php on line 3553
+[26-May-2015 12:10:38 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'parse error: unclosed block' in /home/flexvisi/public_html/formflex/inc/lessc.inc.php:2368
+Stack trace:
+#0 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(120): lessc_parser->parse('.customErrorVal...')
+#1 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(785): lessc->tryImport(Array, Object(stdClass), Object(stdClass))
+#2 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(283): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#3 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(277): lessc->compileProps(Object(stdClass), Object(stdClass))
+#4 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(192): lessc->compileRoot(Object(stdClass))
+#5 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1899): lessc->compileBlock(Object(stdClass))
+#6 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1922): lessc->compile('@import "var";?...', './assets/less/s...')
+#7 /home/flexvisi/public_html/formflex/index.php(24): lessc->compileFile('./as in /home/flexvisi/public_html/formflex/inc/lessc.inc.php on line 2368
+[26-May-2015 12:32:25 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'parse error: unclosed block' in /home/flexvisi/public_html/formflex/inc/lessc.inc.php:2368
+Stack trace:
+#0 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(120): lessc_parser->parse('.customErrorVal...')
+#1 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(785): lessc->tryImport(Array, Object(stdClass), Object(stdClass))
+#2 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(283): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#3 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(277): lessc->compileProps(Object(stdClass), Object(stdClass))
+#4 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(192): lessc->compileRoot(Object(stdClass))
+#5 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1899): lessc->compileBlock(Object(stdClass))
+#6 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1922): lessc->compile('@import "var";?...', './assets/less/s...')
+#7 /home/flexvisi/public_html/formflex/index.php(24): lessc->compileFile('./as in /home/flexvisi/public_html/formflex/inc/lessc.inc.php on line 2368
+[28-May-2015 07:18:07 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'parse error: unclosed block' in /home/flexvisi/public_html/formflex/inc/lessc.inc.php:2368
+Stack trace:
+#0 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(120): lessc_parser->parse('.round(@radius:...')
+#1 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(785): lessc->tryImport(Array, Object(stdClass), Object(stdClass))
+#2 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(283): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#3 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(277): lessc->compileProps(Object(stdClass), Object(stdClass))
+#4 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(192): lessc->compileRoot(Object(stdClass))
+#5 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1899): lessc->compileBlock(Object(stdClass))
+#6 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1922): lessc->compile('@import "var";?...', './assets/less/s...')
+#7 /home/flexvisi/public_html/formflex/inc/header.php(24): lessc->compileFile( in /home/flexvisi/public_html/formflex/inc/lessc.inc.php on line 2368
+[12-Jun-2015 07:24:59 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message '.round is undefined: ./assets/less/style_less.less on line 3' in /home/flexvisi/public_html/formflex/inc/lessc.inc.php:3555
+Stack trace:
+#0 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(2097): lessc_parser->throwError('.round is undef...', 1425)
+#1 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(720): lessc->throwError('.round is undef...')
+#2 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(283): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#3 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(221): lessc->compileProps(Object(stdClass), Object(stdClass))
+#4 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(195): lessc->compileCSSBlock(Object(stdClass))
+#5 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(691): lessc->compileBlock(Object(stdClass))
+#6 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(283): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#7 /home/flexvisi/public_html/formflex/inc/lessc in /home/flexvisi/public_html/formflex/inc/lessc.inc.php on line 3555
+[12-Jun-2015 07:26:05 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message '.round is undefined: ./assets/less/style_less.less on line 3' in /home/flexvisi/public_html/formflex/inc/lessc.inc.php:3555
+Stack trace:
+#0 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(2097): lessc_parser->throwError('.round is undef...', 1425)
+#1 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(720): lessc->throwError('.round is undef...')
+#2 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(283): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#3 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(221): lessc->compileProps(Object(stdClass), Object(stdClass))
+#4 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(195): lessc->compileCSSBlock(Object(stdClass))
+#5 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(691): lessc->compileBlock(Object(stdClass))
+#6 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(283): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#7 /home/flexvisi/public_html/formflex/inc/lessc in /home/flexvisi/public_html/formflex/inc/lessc.inc.php on line 3555
+[12-Jun-2015 07:30:11 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message '.round is undefined: ./assets/less/style_less.less on line 3' in /home/flexvisi/public_html/formflex/inc/lessc.inc.php:3555
+Stack trace:
+#0 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(2097): lessc_parser->throwError('.round is undef...', 1425)
+#1 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(720): lessc->throwError('.round is undef...')
+#2 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(283): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#3 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(221): lessc->compileProps(Object(stdClass), Object(stdClass))
+#4 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(195): lessc->compileCSSBlock(Object(stdClass))
+#5 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(691): lessc->compileBlock(Object(stdClass))
+#6 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(283): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#7 /home/flexvisi/public_html/formflex/inc/lessc in /home/flexvisi/public_html/formflex/inc/lessc.inc.php on line 3555
+[12-Jun-2015 07:38:07 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'parse error: unclosed block' in /home/flexvisi/public_html/formflex/inc/lessc.inc.php:2368
+Stack trace:
+#0 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(120): lessc_parser->parse('.round(@radius:...')
+#1 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(785): lessc->tryImport(Array, Object(stdClass), Object(stdClass))
+#2 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(283): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#3 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(277): lessc->compileProps(Object(stdClass), Object(stdClass))
+#4 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(192): lessc->compileRoot(Object(stdClass))
+#5 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1899): lessc->compileBlock(Object(stdClass))
+#6 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1922): lessc->compile('@import "var";?...', './assets/less/s...')
+#7 /home/flexvisi/public_html/formflex/inc/header.php(24): lessc->compileFile( in /home/flexvisi/public_html/formflex/inc/lessc.inc.php on line 2368
+[12-Jun-2015 07:39:02 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message '.round is undefined: ./assets/less/style_less.less on line 3' in /home/flexvisi/public_html/formflex/inc/lessc.inc.php:3555
+Stack trace:
+#0 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(2097): lessc_parser->throwError('.round is undef...', 1425)
+#1 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(720): lessc->throwError('.round is undef...')
+#2 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(283): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#3 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(221): lessc->compileProps(Object(stdClass), Object(stdClass))
+#4 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(195): lessc->compileCSSBlock(Object(stdClass))
+#5 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(691): lessc->compileBlock(Object(stdClass))
+#6 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(283): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#7 /home/flexvisi/public_html/formflex/inc/lessc in /home/flexvisi/public_html/formflex/inc/lessc.inc.php on line 3555
+[12-Jun-2015 09:14:36 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'parse error: unclosed block' in /home/flexvisi/public_html/formflex/inc/lessc.inc.php:2368
+Stack trace:
+#0 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(120): lessc_parser->parse('.round(@radius:...')
+#1 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(785): lessc->tryImport(Array, Object(stdClass), Object(stdClass))
+#2 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(283): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#3 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(277): lessc->compileProps(Object(stdClass), Object(stdClass))
+#4 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(192): lessc->compileRoot(Object(stdClass))
+#5 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1899): lessc->compileBlock(Object(stdClass))
+#6 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1922): lessc->compile('@import "var";?...', './assets/less/s...')
+#7 /home/flexvisi/public_html/formflex/inc/header.php(24): lessc->compileFile( in /home/flexvisi/public_html/formflex/inc/lessc.inc.php on line 2368
+[18-Jun-2015 07:59:15 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'variable @gris is undefined: ./assets/less/style_less.less on line 5' in /home/flexvisi/public_html/formflex/inc/lessc.inc.php:3555
+Stack trace:
+#0 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(2097): lessc_parser->throwError('variable @gris ...', 1860)
+#1 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1852): lessc->throwError('variable @gris ...')
+#2 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1475): lessc->get('@gris')
+#3 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(686): lessc->reduce(Array)
+#4 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(283): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#5 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(221): lessc->compileProps(Object(stdClass), Object(stdClass))
+#6 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(195): lessc->compileCSSBlock(Object(stdClass))
+#7 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(691): lessc->compileBlock(Object(stdClas in /home/flexvisi/public_html/formflex/inc/lessc.inc.php on line 3555
+[18-Jun-2015 07:59:16 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'variable @gris is undefined: ./assets/less/style_less.less on line 5' in /home/flexvisi/public_html/formflex/inc/lessc.inc.php:3555
+Stack trace:
+#0 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(2097): lessc_parser->throwError('variable @gris ...', 1860)
+#1 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1852): lessc->throwError('variable @gris ...')
+#2 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1475): lessc->get('@gris')
+#3 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(686): lessc->reduce(Array)
+#4 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(283): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#5 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(221): lessc->compileProps(Object(stdClass), Object(stdClass))
+#6 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(195): lessc->compileCSSBlock(Object(stdClass))
+#7 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(691): lessc->compileBlock(Object(stdClas in /home/flexvisi/public_html/formflex/inc/lessc.inc.php on line 3555
+[18-Jun-2015 07:59:21 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'variable @gris is undefined: ./assets/less/style_less.less on line 5' in /home/flexvisi/public_html/formflex/inc/lessc.inc.php:3555
+Stack trace:
+#0 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(2097): lessc_parser->throwError('variable @gris ...', 1860)
+#1 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1852): lessc->throwError('variable @gris ...')
+#2 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1475): lessc->get('@gris')
+#3 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(686): lessc->reduce(Array)
+#4 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(283): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#5 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(221): lessc->compileProps(Object(stdClass), Object(stdClass))
+#6 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(195): lessc->compileCSSBlock(Object(stdClass))
+#7 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(691): lessc->compileBlock(Object(stdClas in /home/flexvisi/public_html/formflex/inc/lessc.inc.php on line 3555
+[02-Jul-2015 07:25:47 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'parse error: unclosed block' in /home/flexvisi/public_html/formflex/inc/lessc.inc.php:2368
+Stack trace:
+#0 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(120): lessc_parser->parse('.customErrorVal...')
+#1 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(785): lessc->tryImport(Array, Object(stdClass), Object(stdClass))
+#2 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(283): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#3 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(277): lessc->compileProps(Object(stdClass), Object(stdClass))
+#4 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(192): lessc->compileRoot(Object(stdClass))
+#5 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1899): lessc->compileBlock(Object(stdClass))
+#6 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1922): lessc->compile('@import "var";?...', './assets/less/s...')
+#7 /home/flexvisi/public_html/formflex/inc/header.php(24): lessc->compileFile( in /home/flexvisi/public_html/formflex/inc/lessc.inc.php on line 2368
+[02-Jul-2015 07:26:53 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'variable @bdt is undefined: ./assets/less/style_less.less on line 5' in /home/flexvisi/public_html/formflex/inc/lessc.inc.php:3555
+Stack trace:
+#0 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(2097): lessc_parser->throwError('variable @bdt i...', 1777)
+#1 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1852): lessc->throwError('variable @bdt i...')
+#2 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1475): lessc->get('@bdt')
+#3 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1480): lessc->reduce(Array, false)
+#4 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(686): lessc->reduce(Array)
+#5 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(283): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#6 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(221): lessc->compileProps(Object(stdClass), Object(stdClass))
+#7 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(195): lessc->compileCSSBlock(Object(stdClass))
+#8 /hom in /home/flexvisi/public_html/formflex/inc/lessc.inc.php on line 3555
+[02-Jul-2015 07:26:55 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'variable @bdt is undefined: ./assets/less/style_less.less on line 5' in /home/flexvisi/public_html/formflex/inc/lessc.inc.php:3555
+Stack trace:
+#0 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(2097): lessc_parser->throwError('variable @bdt i...', 1777)
+#1 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1852): lessc->throwError('variable @bdt i...')
+#2 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1475): lessc->get('@bdt')
+#3 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1480): lessc->reduce(Array, false)
+#4 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(686): lessc->reduce(Array)
+#5 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(283): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#6 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(221): lessc->compileProps(Object(stdClass), Object(stdClass))
+#7 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(195): lessc->compileCSSBlock(Object(stdClass))
+#8 /hom in /home/flexvisi/public_html/formflex/inc/lessc.inc.php on line 3555
+[02-Jul-2015 07:26:56 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'variable @bdt is undefined: ./assets/less/style_less.less on line 5' in /home/flexvisi/public_html/formflex/inc/lessc.inc.php:3555
+Stack trace:
+#0 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(2097): lessc_parser->throwError('variable @bdt i...', 1777)
+#1 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1852): lessc->throwError('variable @bdt i...')
+#2 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1475): lessc->get('@bdt')
+#3 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1480): lessc->reduce(Array, false)
+#4 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(686): lessc->reduce(Array)
+#5 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(283): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#6 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(221): lessc->compileProps(Object(stdClass), Object(stdClass))
+#7 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(195): lessc->compileCSSBlock(Object(stdClass))
+#8 /hom in /home/flexvisi/public_html/formflex/inc/lessc.inc.php on line 3555
+[02-Jul-2015 07:26:57 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'variable @bdt is undefined: ./assets/less/style_less.less on line 5' in /home/flexvisi/public_html/formflex/inc/lessc.inc.php:3555
+Stack trace:
+#0 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(2097): lessc_parser->throwError('variable @bdt i...', 1777)
+#1 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1852): lessc->throwError('variable @bdt i...')
+#2 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1475): lessc->get('@bdt')
+#3 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1480): lessc->reduce(Array, false)
+#4 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(686): lessc->reduce(Array)
+#5 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(283): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#6 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(221): lessc->compileProps(Object(stdClass), Object(stdClass))
+#7 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(195): lessc->compileCSSBlock(Object(stdClass))
+#8 /hom in /home/flexvisi/public_html/formflex/inc/lessc.inc.php on line 3555
+[02-Jul-2015 07:27:22 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'parse error: unclosed block' in /home/flexvisi/public_html/formflex/inc/lessc.inc.php:2368
+Stack trace:
+#0 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(120): lessc_parser->parse('.customErrorVal...')
+#1 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(785): lessc->tryImport(Array, Object(stdClass), Object(stdClass))
+#2 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(283): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#3 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(277): lessc->compileProps(Object(stdClass), Object(stdClass))
+#4 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(192): lessc->compileRoot(Object(stdClass))
+#5 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1899): lessc->compileBlock(Object(stdClass))
+#6 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1922): lessc->compile('@import "var";?...', './assets/less/s...')
+#7 /home/flexvisi/public_html/formflex/inc/header.php(24): lessc->compileFile( in /home/flexvisi/public_html/formflex/inc/lessc.inc.php on line 2368
+[08-Jul-2015 12:37:56 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'parse error: unclosed block' in /home/flexvisi/public_html/formflex/inc/lessc.inc.php:2368
+Stack trace:
+#0 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(120): lessc_parser->parse('#picpicker {??w...')
+#1 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(785): lessc->tryImport(Array, Object(stdClass), Object(stdClass))
+#2 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(283): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#3 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(277): lessc->compileProps(Object(stdClass), Object(stdClass))
+#4 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(192): lessc->compileRoot(Object(stdClass))
+#5 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1899): lessc->compileBlock(Object(stdClass))
+#6 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1922): lessc->compile('@import "var";?...', './assets/less/s...')
+#7 /home/flexvisi/public_html/formflex/inc/header.php(24): lessc->compileFile( in /home/flexvisi/public_html/formflex/inc/lessc.inc.php on line 2368
+[27-Aug-2015 11:32:17 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'ml15 is undefined: ./assets/less/style_less.less on line 5' in /home/flexvisi/public_html/formflex/inc/lessc.inc.php:3555
+Stack trace:
+#0 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(2097): lessc_parser->throwError('ml15 is undefin...', 13431)
+#1 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(720): lessc->throwError('ml15 is undefin...')
+#2 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(283): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#3 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(221): lessc->compileProps(Object(stdClass), Object(stdClass))
+#4 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(195): lessc->compileCSSBlock(Object(stdClass))
+#5 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(691): lessc->compileBlock(Object(stdClass))
+#6 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(283): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#7 /home/flexvisi/public_html/formflex/inc/lessc. in /home/flexvisi/public_html/formflex/inc/lessc.inc.php on line 3555
+[27-Aug-2015 11:32:19 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'ml15 is undefined: ./assets/less/style_less.less on line 5' in /home/flexvisi/public_html/formflex/inc/lessc.inc.php:3555
+Stack trace:
+#0 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(2097): lessc_parser->throwError('ml15 is undefin...', 13431)
+#1 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(720): lessc->throwError('ml15 is undefin...')
+#2 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(283): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#3 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(221): lessc->compileProps(Object(stdClass), Object(stdClass))
+#4 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(195): lessc->compileCSSBlock(Object(stdClass))
+#5 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(691): lessc->compileBlock(Object(stdClass))
+#6 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(283): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#7 /home/flexvisi/public_html/formflex/inc/lessc. in /home/flexvisi/public_html/formflex/inc/lessc.inc.php on line 3555
+[27-Aug-2015 11:32:21 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'ml15 is undefined: ./assets/less/style_less.less on line 5' in /home/flexvisi/public_html/formflex/inc/lessc.inc.php:3555
+Stack trace:
+#0 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(2097): lessc_parser->throwError('ml15 is undefin...', 13431)
+#1 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(720): lessc->throwError('ml15 is undefin...')
+#2 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(283): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#3 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(221): lessc->compileProps(Object(stdClass), Object(stdClass))
+#4 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(195): lessc->compileCSSBlock(Object(stdClass))
+#5 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(691): lessc->compileBlock(Object(stdClass))
+#6 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(283): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#7 /home/flexvisi/public_html/formflex/inc/lessc. in /home/flexvisi/public_html/formflex/inc/lessc.inc.php on line 3555
+[09-Sep-2015 12:23:50 UTC] PHP Warning:  require(./assets/css/lessc.inc.php): failed to open stream: No such file or directory in /home/flexvisi/public_html/formflex/sliker.php on line 13
+[09-Sep-2015 12:23:50 UTC] PHP Warning:  require(./assets/css/lessc.inc.php): failed to open stream: No such file or directory in /home/flexvisi/public_html/formflex/sliker.php on line 13
+[09-Sep-2015 12:23:50 UTC] PHP Fatal error:  require(): Failed opening required './assets/css/lessc.inc.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/flexvisi/public_html/formflex/sliker.php on line 13
+[22-Sep-2015 13:35:37 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'variable @gris_moyen is undefined: ./assets/less/style_less.less on line 6' in /home/flexvisi/public_html/formflex/inc/lessc.inc.php:3555
+Stack trace:
+#0 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(2097): lessc_parser->throwError('variable @gris_...', 1732)
+#1 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1852): lessc->throwError('variable @gris_...')
+#2 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1475): lessc->get('@gris_moyen')
+#3 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(686): lessc->reduce(Array)
+#4 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(283): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#5 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(221): lessc->compileProps(Object(stdClass), Object(stdClass))
+#6 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(195): lessc->compileCSSBlock(Object(stdClass))
+#7 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(691): lessc->compileBlock(Ob in /home/flexvisi/public_html/formflex/inc/lessc.inc.php on line 3555
+[22-Sep-2015 13:35:39 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'variable @gris_moyen is undefined: ./assets/less/style_less.less on line 6' in /home/flexvisi/public_html/formflex/inc/lessc.inc.php:3555
+Stack trace:
+#0 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(2097): lessc_parser->throwError('variable @gris_...', 1732)
+#1 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1852): lessc->throwError('variable @gris_...')
+#2 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1475): lessc->get('@gris_moyen')
+#3 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(686): lessc->reduce(Array)
+#4 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(283): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#5 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(221): lessc->compileProps(Object(stdClass), Object(stdClass))
+#6 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(195): lessc->compileCSSBlock(Object(stdClass))
+#7 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(691): lessc->compileBlock(Ob in /home/flexvisi/public_html/formflex/inc/lessc.inc.php on line 3555
+[22-Sep-2015 13:37:40 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'variable @gris_moyen is undefined: ./assets/less/style_less.less on line 6' in /home/flexvisi/public_html/formflex/inc/lessc.inc.php:3555
+Stack trace:
+#0 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(2097): lessc_parser->throwError('variable @gris_...', 1732)
+#1 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1852): lessc->throwError('variable @gris_...')
+#2 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1475): lessc->get('@gris_moyen')
+#3 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(686): lessc->reduce(Array)
+#4 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(283): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#5 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(221): lessc->compileProps(Object(stdClass), Object(stdClass))
+#6 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(195): lessc->compileCSSBlock(Object(stdClass))
+#7 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(691): lessc->compileBlock(Ob in /home/flexvisi/public_html/formflex/inc/lessc.inc.php on line 3555
+[06-Oct-2015 14:52:18 UTC] PHP Parse error:  syntax error, unexpected 'a' in /home/flexvisi/public_html/formflex/formflex.php on line 1745
+[09-Oct-2015 15:11:12 UTC] PHP Parse error:  syntax error, unexpected '$' in /home/flexvisi/public_html/formflex/formflex.php on line 1721
+[09-Oct-2015 15:28:25 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message '.round is undefined: ./assets/less/style_less.less on line 6' in /home/flexvisi/public_html/formflex/inc/lessc.inc.php:3555
+Stack trace:
+#0 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(2097): lessc_parser->throwError('.round is undef...', 1425)
+#1 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(720): lessc->throwError('.round is undef...')
+#2 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(283): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#3 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(221): lessc->compileProps(Object(stdClass), Object(stdClass))
+#4 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(195): lessc->compileCSSBlock(Object(stdClass))
+#5 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(691): lessc->compileBlock(Object(stdClass))
+#6 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(283): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#7 /home/flexvisi/public_html/formflex/inc/lessc in /home/flexvisi/public_html/formflex/inc/lessc.inc.php on line 3555
+[12-Oct-2015 07:51:24 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'parse error: unclosed block' in /home/flexvisi/public_html/formflex/inc/lessc.inc.php:2368
+Stack trace:
+#0 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(120): lessc_parser->parse('.customErrorVal...')
+#1 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(785): lessc->tryImport(Array, Object(stdClass), Object(stdClass))
+#2 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(283): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#3 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(277): lessc->compileProps(Object(stdClass), Object(stdClass))
+#4 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(192): lessc->compileRoot(Object(stdClass))
+#5 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1899): lessc->compileBlock(Object(stdClass))
+#6 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1922): lessc->compile('@import "var";?...', './assets/less/s...')
+#7 /home/flexvisi/public_html/formflex/inc/header.php(24): lessc->compileFile( in /home/flexvisi/public_html/formflex/inc/lessc.inc.php on line 2368
+[19-Oct-2015 12:33:40 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'variable @formflex_switch is undefined: ./assets/less/style_less.less on line 6' in /home/flexvisi/public_html/formflex/inc/lessc.inc.php:3555
+Stack trace:
+#0 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(2097): lessc_parser->throwError('variable @formf...', 15062)
+#1 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1852): lessc->throwError('variable @formf...')
+#2 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1475): lessc->get('@formflex_switc...')
+#3 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(367): lessc->reduce(Array)
+#4 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(231): lessc->compileMediaQuery(Array)
+#5 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(198): lessc->compileMedia(Object(stdClass))
+#6 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(691): lessc->compileBlock(Object(stdClass))
+#7 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(283): lessc->compileProp(Array, Object(stdClass), Object(stdClass) in /home/flexvisi/public_html/formflex/inc/lessc.inc.php on line 3555
+[19-Oct-2015 12:33:42 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'variable @formflex_switch is undefined: ./assets/less/style_less.less on line 6' in /home/flexvisi/public_html/formflex/inc/lessc.inc.php:3555
+Stack trace:
+#0 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(2097): lessc_parser->throwError('variable @formf...', 15062)
+#1 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1852): lessc->throwError('variable @formf...')
+#2 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1475): lessc->get('@formflex_switc...')
+#3 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(367): lessc->reduce(Array)
+#4 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(231): lessc->compileMediaQuery(Array)
+#5 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(198): lessc->compileMedia(Object(stdClass))
+#6 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(691): lessc->compileBlock(Object(stdClass))
+#7 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(283): lessc->compileProp(Array, Object(stdClass), Object(stdClass) in /home/flexvisi/public_html/formflex/inc/lessc.inc.php on line 3555
+[28-Oct-2015 10:36:58 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/flexvisi/public_html/formflex/formflex.php on line 2242
+[28-Oct-2015 10:37:00 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/flexvisi/public_html/formflex/formflex.php on line 2242
+[14-Jan-2016 13:54:39 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'parse error: unclosed block' in /home/flexvisi/public_html/formflex/inc/lessc.inc.php:2368
+Stack trace:
+#0 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(120): lessc_parser->parse('.customErrorVal...')
+#1 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(785): lessc->tryImport(Array, Object(stdClass), Object(stdClass))
+#2 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(283): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#3 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(277): lessc->compileProps(Object(stdClass), Object(stdClass))
+#4 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(192): lessc->compileRoot(Object(stdClass))
+#5 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1899): lessc->compileBlock(Object(stdClass))
+#6 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1922): lessc->compile('@import "var";?...', './assets/less/s...')
+#7 /home/flexvisi/public_html/formflex/inc/header.php(24): lessc->compileFile( in /home/flexvisi/public_html/formflex/inc/lessc.inc.php on line 2368
+[01-Mar-2016 13:44:49 UTC] PHP Parse error:  syntax error, unexpected '<=', expecting ';' in /home/flexvisi/public_html/formflex/formflex.php on line 815
+[15-Mar-2016 12:17:11 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message '.os is undefined: ./assets/less/style_less.less on line 10' in /home/flexvisi/public_html/formflex/inc/lessc.inc.php:3555
+Stack trace:
+#0 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(2097): lessc_parser->throwError('.os is undefine...', 5434)
+#1 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(720): lessc->throwError('.os is undefine...')
+#2 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(283): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#3 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(221): lessc->compileProps(Object(stdClass), Object(stdClass))
+#4 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(195): lessc->compileCSSBlock(Object(stdClass))
+#5 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(691): lessc->compileBlock(Object(stdClass))
+#6 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(161): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#7 /home/flexvisi/public_html/formflex/inc/lessc.i in /home/flexvisi/public_html/formflex/inc/lessc.inc.php on line 3555
+[15-Mar-2016 12:17:13 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message '.os is undefined: ./assets/less/style_less.less on line 10' in /home/flexvisi/public_html/formflex/inc/lessc.inc.php:3555
+Stack trace:
+#0 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(2097): lessc_parser->throwError('.os is undefine...', 5434)
+#1 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(720): lessc->throwError('.os is undefine...')
+#2 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(283): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#3 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(221): lessc->compileProps(Object(stdClass), Object(stdClass))
+#4 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(195): lessc->compileCSSBlock(Object(stdClass))
+#5 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(691): lessc->compileBlock(Object(stdClass))
+#6 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(161): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#7 /home/flexvisi/public_html/formflex/inc/lessc.i in /home/flexvisi/public_html/formflex/inc/lessc.inc.php on line 3555
+[15-Mar-2016 12:17:54 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'variable @mobile_menu is undefined: ./assets/less/style_less.less on line 10' in /home/flexvisi/public_html/formflex/inc/lessc.inc.php:3555
+Stack trace:
+#0 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(2097): lessc_parser->throwError('variable @mobil...', 5926)
+#1 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1852): lessc->throwError('variable @mobil...')
+#2 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1475): lessc->get('@mobile_menu')
+#3 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(686): lessc->reduce(Array)
+#4 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(283): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#5 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(221): lessc->compileProps(Object(stdClass), Object(stdClass))
+#6 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(195): lessc->compileCSSBlock(Object(stdClass))
+#7 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(691): lessc->compileBlock in /home/flexvisi/public_html/formflex/inc/lessc.inc.php on line 3555
+[15-Mar-2016 12:17:55 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'variable @mobile_menu is undefined: ./assets/less/style_less.less on line 10' in /home/flexvisi/public_html/formflex/inc/lessc.inc.php:3555
+Stack trace:
+#0 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(2097): lessc_parser->throwError('variable @mobil...', 5926)
+#1 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1852): lessc->throwError('variable @mobil...')
+#2 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1475): lessc->get('@mobile_menu')
+#3 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(686): lessc->reduce(Array)
+#4 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(283): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#5 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(221): lessc->compileProps(Object(stdClass), Object(stdClass))
+#6 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(195): lessc->compileCSSBlock(Object(stdClass))
+#7 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(691): lessc->compileBlock in /home/flexvisi/public_html/formflex/inc/lessc.inc.php on line 3555
+[15-Mar-2016 12:17:57 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'variable @mobile_menu is undefined: ./assets/less/style_less.less on line 10' in /home/flexvisi/public_html/formflex/inc/lessc.inc.php:3555
+Stack trace:
+#0 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(2097): lessc_parser->throwError('variable @mobil...', 5926)
+#1 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1852): lessc->throwError('variable @mobil...')
+#2 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(1475): lessc->get('@mobile_menu')
+#3 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(686): lessc->reduce(Array)
+#4 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(283): lessc->compileProp(Array, Object(stdClass), Object(stdClass))
+#5 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(221): lessc->compileProps(Object(stdClass), Object(stdClass))
+#6 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(195): lessc->compileCSSBlock(Object(stdClass))
+#7 /home/flexvisi/public_html/formflex/inc/lessc.inc.php(691): lessc->compileBlock in /home/flexvisi/public_html/formflex/inc/lessc.inc.php on line 3555
+[10-May-2016 13:19:35 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'load error: failed to find ./assets/less/sdsd.less' in /home/flexvisi/public_html/formflex/inc/lessc.inc.php:1910
+Stack trace:
+#0 /home/flexvisi/public_html/formflex/inc/header.php(24): lessc->compileFile('./assets/less/s...', './assets/css/st...')
+#1 /home/flexvisi/public_html/formflex/sliker.php(1): include('/home/flexvisi/...')
+#2 {main}
+  thrown in /home/flexvisi/public_html/formflex/inc/lessc.inc.php on line 1910
+[10-May-2016 13:19:44 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'load error: failed to find https://rawgit.com/Zenike/sliker/master/sliker.less' in /home/flexvisi/public_html/formflex/inc/lessc.inc.php:1910
+Stack trace:
+#0 /home/flexvisi/public_html/formflex/inc/header.php(24): lessc->compileFile('https://rawgit....', './assets/css/st...')
+#1 /home/flexvisi/public_html/formflex/sliker.php(1): include('/home/flexvisi/...')
+#2 {main}
+  thrown in /home/flexvisi/public_html/formflex/inc/lessc.inc.php on line 1910
+[10-May-2016 13:19:46 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'load error: failed to find https://rawgit.com/Zenike/sliker/master/sliker.less' in /home/flexvisi/public_html/formflex/inc/lessc.inc.php:1910
+Stack trace:
+#0 /home/flexvisi/public_html/formflex/inc/header.php(24): lessc->compileFile('https://rawgit....', './assets/css/st...')
+#1 /home/flexvisi/public_html/formflex/sliker.php(1): include('/home/flexvisi/...')
+#2 {main}
+  thrown in /home/flexvisi/public_html/formflex/inc/lessc.inc.php on line 1910
+[10-May-2016 13:19:49 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'load error: failed to find https://rawgit.com/Zenike/sliker/master/sliker.less' in /home/flexvisi/public_html/formflex/inc/lessc.inc.php:1910
+Stack trace:
+#0 /home/flexvisi/public_html/formflex/inc/header.php(24): lessc->compileFile('https://rawgit....', './assets/css/st...')
+#1 /home/flexvisi/public_html/formflex/sliker.php(1): include('/home/flexvisi/...')
+#2 {main}
+  thrown in /home/flexvisi/public_html/formflex/inc/lessc.inc.php on line 1910
